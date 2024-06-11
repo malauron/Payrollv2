@@ -1,0 +1,241 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\828Payroll\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+Unicows.dll=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\xpthing.ocx=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=
+C:\Program Files\Common Files\System\ado\msadox.dll=
+C:\Program Files\Common Files\System\ado\msadomd.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\tdbgpp8.dll=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\truedc8.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+D:\828Payroll\dlls\cxlib-1-6.dll=
+D:\828Payroll\dlls\cxlibw7-1-6.dll=
+D:\828Payroll\dlls\cxlibw-1-6.dll=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\828Payroll\828Payroll.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\vsflex8.ocx=Yes
+C:\Program Files\Common Files\System\ado\msadomd.dll=Yes
+C:\Program Files\Common Files\System\ado\msadox.dll=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.5\bin\crviewer.dll=Yes
+C:\WINDOWS\system32\tidate8.ocx=Yes
+C:\WINDOWS\system32\tishare8.dll=Yes
+C:\WINDOWS\system32\tibase8.dll=Yes
+C:\WINDOWS\system32\tinumb8.ocx=Yes
+C:\WINDOWS\system32\titime8.ocx=Yes
+C:\WINDOWS\system32\titext8.ocx=Yes
+C:\WINDOWS\system32\truedc8.ocx=Yes
+C:\WINDOWS\system32\xadb8.ocx=Yes
+C:\WINDOWS\system32\TDBWSnk6.dll=Yes
+C:\WINDOWS\system32\vbscript.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\c1sizer.ocx=Yes
+C:\WINDOWS\system32\craxdui.dll=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.5\bin\craxdrt.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\crtowords_en.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\ufmanager.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u2l2000.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u2lcom.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u2ldts.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u2lexch.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u2lfinra.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u252000.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u25dts.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u25samp1.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\sscsdk80.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\Implode.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\crqe.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\crdb_ado.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\crdb_dao.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\crdb_odbc.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\querybuilder.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\exlate32.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\crxf_rtf.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\ExportModeller.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.5\bin\crtslv.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\crxf_wordw.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\crxf_xls.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\crxf_pdf.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\u2fcr.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\u2fsepv.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\u2ftext.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\u2fxml.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\u2ddisk.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\u2dpost.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\u2dapp.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\keycode.dll=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\crdeploy.reg=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\todg8.ocx=Yes
+C:\WINDOWS\system32\todgub8.dll=Yes
+C:\WINDOWS\system32\tdbgpp8.dll=Yes
+C:\WINDOWS\system32\todl8.ocx=Yes
+C:\WINDOWS\system32\xpthing.ocx=Yes
+C:\WINDOWS\system32\lvButton.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\828Payroll\dlls\cxlib-1-6.dll=Yes
+D:\828Payroll\dlls\cxlibw7-1-6.dll=Yes
+D:\828Payroll\dlls\cxlibw-1-6.dll=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=Yes
+\Program files\common files\Crystal Decisions\2.5\bin\crdeploy.reg=Register
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\828Payroll\828Payroll.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8.ocx=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msadomd.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msadox.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Crystal Decisions\2.5\bin\crviewer.dll=$(WinSysPath)
+C:\WINDOWS\system32\tidate8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\tishare8.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\tibase8.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\tinumb8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\titime8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\titext8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\truedc8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\xadb8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TDBWSnk6.dll=$(WinSysPath)
+C:\WINDOWS\system32\vbscript.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\c1sizer.ocx=$(WinSysPath)
+C:\WINDOWS\system32\craxdui.dll=$(WinSysPath)
+C:\Program Files\Common Files\Crystal Decisions\2.5\bin\craxdrt.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\crtowords_en.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\ufmanager.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u2l2000.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u2lcom.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u2ldts.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u2lexch.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u2lfinra.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u252000.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u25dts.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\u25samp1.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\sscsdk80.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\Implode.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\crqe.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\crdb_ado.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\crdb_dao.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\crdb_odbc.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\querybuilder.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\exlate32.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\crxf_rtf.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\ExportModeller.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program Files\Common Files\Crystal Decisions\2.5\bin\crtslv.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\crxf_wordw.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\crxf_xls.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\crxf_pdf.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\u2fcr.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\u2fsepv.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\u2ftext.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\u2fxml.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\u2ddisk.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\u2dpost.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\u2dapp.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+\Program files\common files\Crystal Decisions\2.5\bin\keycode.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\todg8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\todgub8.dll=$(WinSysPath)
+C:\WINDOWS\system32\tdbgpp8.dll=$(WinSysPath)
+C:\WINDOWS\system32\todl8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\xpthing.ocx=$(WinSysPath)
+C:\WINDOWS\system32\lvButton.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\828Payroll\dlls\cxlib-1-6.dll=$(AppPath)
+D:\828Payroll\dlls\cxlibw7-1-6.dll=$(AppPath)
+D:\828Payroll\dlls\cxlibw-1-6.dll=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\828Payroll\828Payroll.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\828Payroll\dlls\cxlib-1-6.dll=No
+D:\828Payroll\dlls\cxlibw7-1-6.dll=No
+D:\828Payroll\dlls\cxlibw-1-6.dll=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Payroll System - LinkPro Technologies
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Payroll System - LinkPro Technologies
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Payroll System - LinkPro Technologies]
+Icon1=828Payroll.exe
+Title1=Payroll System - LinkPro Technologies
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\828Payroll\Package
+ProjectFolder=D:\828Payroll
+ServerSideCab=
+File1=D:\828Payroll\Package\setup.exe
+File2=D:\828Payroll\Package\Setup.Lst
+File3=D:\828Payroll\Package\828Payroll.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

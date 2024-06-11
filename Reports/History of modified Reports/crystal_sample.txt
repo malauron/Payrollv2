@@ -1,0 +1,34 @@
+  Dim DBTable As CRAXDRT.DatabaseTable
+  ' Declare a SubreportObject object.
+  Dim oSubreportObject As CRAXDRT.Report
+  ' Declare a generic Object.
+  Dim oObject As Object
+  ' Declare a Section object.
+  Dim oSection As CRAXDRT.Section
+
+  Set mReport = Nothing
+  Set mReport = ReportPath.OpenReport(App.Path & "\Reports\rptSchedFxAndOtAssets.rpt", 1)
+
+  ' Search for all the report objects in each section.
+  For Each oSection In mReport.Sections
+      For Each oObject In oSection.ReportObjects
+          ' Find the subreport object.
+          If oObject.Kind = crSubreportObject Then
+              ' Get the subreport object.
+              Set oSubreportObject = oObject.OpenSubreport
+              If oSubreportObject.Database.Tables.Count > 0 Then
+                Set DBTable = oSubreportObject.Database.Tables(1)
+
+                DBTable.ConnectionProperties("data source").Value = sServerName
+                DBTable.ConnectionProperties("user id").Value = sDatabaseUserID
+                DBTable.ConnectionProperties("password").Value = sDatabasePwd
+                DBTable.ConnectionProperties("initial catalog").Value = sDatabaseName
+              End If
+          End If
+      Next oObject
+  Next oSection
+  
+  mReport.ParameterFields(1).AddCurrentValue dAsOfDate
+  
+  frmCrPreview.Show vbModal
+  Set mReport = Nothing

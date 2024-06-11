@@ -1,0 +1,248 @@
+[Root]
+Most Recent Package=Payroll Software Setup
+
+
+[Package|Payroll Software Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projects - VB6-828\828Payroll\Package
+
+[Package|Payroll Software Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Payroll Software Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Payroll Software Setup|Files Found]
+cxlib-1-6.dll=D:\Marky\Projects\828Payroll - beta\dlls\cxlib-1-6.dll
+
+[Package|Payroll Software Setup|Files Released]
+Unicows.dll=
+
+[Package|Payroll Software Setup|Missing Dependency Information]
+C:\Windows\SysWOW64\lvButton.ocx=
+C:\Windows\SysWOW64\xpthing.ocx=
+C:\Program Files (x86)\Common Files\System\ado\msado60_Backcompat.tlb=
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPCtlX.dll=
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPShrX.dll=
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPEngX.dll=
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPDevX.dll=
+C:\Windows\SysWOW64\vsflex8l.ocx=
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\craxdui.dll=
+C:\Windows\SysWOW64\c1sizer.ocx=
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=
+C:\Program Files (x86)\Common Files\System\ado\msadox28.tlb=
+C:\Program Files (x86)\Common Files\System\ado\msadomd28.tlb=
+C:\Windows\SysWOW64\vsflex8.ocx=
+D:\Projects - VB6-828\828Payroll\dlls\cxlib-1-6.dll=
+D:\Projects - VB6-828\828Payroll\dlls\cxlibw-1-6.dll=
+D:\Projects - VB6-828\828Payroll\dlls\cxlibw7-1-6.dll=
+D:\Marky\Projects\828Payroll - beta\dlls\cxlib-1-6.dll=
+D:\Marky\Projects\828Payroll - beta\dlls\cxlibw7-1-6.dll=
+D:\Marky\Projects\828Payroll - beta\dlls\cxlibw-1-6.dll=
+D:\Marky\Projects\828Payroll - beta\lvButton.ocx=
+D:\Marky\Projects\828Payroll - beta\xpthing.ocx=
+C:\Windows\SysWOW64\craxdrt.dll=
+C:\Windows\SysWOW64\craxdui.dll=
+C:\Windows\SysWOW64\crviewer.dll=
+
+[Package|Payroll Software Setup|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\tdbgpp8.dll=
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+C:\Windows\SysWOW64\scrrun.dll=
+C:\Windows\SysWOW64\truedc8.ocx=
+
+[Package|Payroll Software Setup|Files Added]
+cxlib-1-6.dll=
+cxlibw-1-6.dll=
+cxlibw7-1-6.dll=
+
+[Package|Payroll Software Setup|Files Removed]
+
+[Package|Payroll Software Setup|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Windows\SysWOW64\vsflex8.ocx=Yes
+C:\Program Files (x86)\Common Files\System\ado\msadomd28.tlb=Yes
+C:\Program Files (x86)\Common Files\System\ado\msadox28.tlb=Yes
+C:\Windows\SysWOW64\MSDBRPTR.DLL=Yes
+C:\Windows\SysWOW64\tidate8.ocx=Yes
+C:\Windows\SysWOW64\tishare8.dll=Yes
+C:\Windows\SysWOW64\tibase8.dll=Yes
+C:\Windows\SysWOW64\tinumb8.ocx=Yes
+C:\Windows\SysWOW64\titime8.ocx=Yes
+C:\Windows\SysWOW64\titext8.ocx=Yes
+C:\Windows\SysWOW64\truedc8.ocx=Yes
+C:\Windows\SysWOW64\xadb8.ocx=Yes
+C:\Windows\SysWOW64\TDBWSnk6.dll=Yes
+C:\Windows\SysWOW64\vbscript.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\Windows\SysWOW64\c1sizer.ocx=Yes
+C:\Windows\SysWOW64\scrrun.dll=Yes
+C:\Windows\SysWOW64\vsflex8l.ocx=Yes
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPDevX.dll=Yes
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPEngX.dll=Yes
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPShrX.dll=Yes
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPCtlX.dll=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado60_Backcompat.tlb=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Windows\SysWOW64\MSDATLST.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+C:\Windows\SysWOW64\todg8.ocx=Yes
+C:\Windows\SysWOW64\todgub8.dll=Yes
+C:\Windows\SysWOW64\tdbgpp8.dll=Yes
+C:\Windows\SysWOW64\todl8.ocx=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Marky\Projects\828Payroll - beta\Eight2EightPayroll.exe=Yes
+C:\Windows\SysWOW64\crviewer.dll=Yes
+C:\Windows\SysWOW64\craxdui.dll=Yes
+C:\Windows\SysWOW64\craxdrt.dll=Yes
+D:\Marky\Projects\828Payroll - beta\xpthing.ocx=Yes
+D:\Marky\Projects\828Payroll - beta\lvButton.ocx=Yes
+D:\Marky\Projects\828Payroll - beta\dlls\cxlib-1-6.dll=Yes
+D:\Marky\Projects\828Payroll - beta\dlls\cxlibw-1-6.dll=Yes
+D:\Marky\Projects\828Payroll - beta\dlls\cxlibw7-1-6.dll=Yes
+
+[Package|Payroll Software Setup|Configure Registry Files]
+Applicable=No
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crdeploy.reg=Register
+
+[Package|Payroll Software Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Payroll Software Setup|Install Locations]
+D:\Projects - VB6-828\828Payroll\Eight2EightPayroll.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\vsflex8.ocx=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msadomd28.tlb=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msadox28.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\crystalreportviewers10\ActiveXControls\crviewer.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\craxdrt.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Windows\SysWOW64\tidate8.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\tishare8.dll=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\tibase8.dll=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\tinumb8.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\titime8.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\titext8.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\truedc8.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\xadb8.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\TDBWSnk6.dll=$(WinSysPath)
+C:\Windows\SysWOW64\vbscript.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\c1sizer.ocx=$(WinSysPath)
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\craxdui.dll=$(WinSysPath)
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crtowords_en.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\ufmanager.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2l2000.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2lcom.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2ldts.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2lexch.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2lfinra.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u252000.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u25dts.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u25samp1.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\sscsdk80.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\Implode.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crqe.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crdb_ado.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crdb_dao.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crdb_odbc.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\querybuilder.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\exlate32.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crxf_rtf.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\ExportModeller.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crtslv.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crxf_wordw.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crxf_xls.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\crxf_pdf.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2fcr.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2fsepv.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2ftext.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2fxml.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2ddisk.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2dpost.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\u2dapp.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Program Files (x86)\Common Files\Crystal Decisions\2.5\bin\keycode.dll=$(CommonFiles)\Crystal Decisions\2.5\bin
+C:\Windows\SysWOW64\scrrun.dll=$(WinSysPath)
+C:\Windows\SysWOW64\vsflex8l.ocx=$(WinSysPath)
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPDevX.dll=$(WinSysPath)
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPEngX.dll=$(WinSysPath)
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPShrX.dll=$(WinSysPath)
+C:\Program Files (x86)\DigitalPersona\Bin\COM-ActiveX\DPFPCtlX.dll=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msado60_Backcompat.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATLST.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\todg8.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\todgub8.dll=$(WinSysPath)
+C:\Windows\SysWOW64\tdbgpp8.dll=$(WinSysPath)
+C:\Windows\SysWOW64\todl8.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\xpthing.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\lvButton.ocx=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projects - VB6-828\828Payroll\dlls\cxlib-1-6.dll=$(WinSysPath)
+D:\Projects - VB6-828\828Payroll\dlls\cxlibw-1-6.dll=$(WinSysPath)
+D:\Projects - VB6-828\828Payroll\dlls\cxlibw7-1-6.dll=$(WinSysPath)
+D:\Marky\Projects\828Payroll - beta\Eight2EightPayroll.exe=$(AppPath)
+C:\Windows\SysWOW64\crviewer.dll=$(WinSysPath)
+C:\Windows\SysWOW64\craxdui.dll=$(WinSysPath)
+C:\Windows\SysWOW64\craxdrt.dll=$(WinSysPath)
+D:\Marky\Projects\828Payroll - beta\xpthing.ocx=$(WinSysPath)
+D:\Marky\Projects\828Payroll - beta\lvButton.ocx=$(WinSysPath)
+D:\Marky\Projects\828Payroll - beta\dlls\cxlib-1-6.dll=$(AppPath)
+D:\Marky\Projects\828Payroll - beta\dlls\cxlibw-1-6.dll=$(AppPath)
+D:\Marky\Projects\828Payroll - beta\dlls\cxlibw7-1-6.dll=$(AppPath)
+
+[Package|Payroll Software Setup|Configure Shared Files]
+Applicable=Yes
+D:\Projects - VB6-828\828Payroll\Eight2EightPayroll.exe=No
+D:\Marky\Projects\828Payroll - beta\Eight2EightPayroll.exe=No
+D:\Marky\Projects\828Payroll - beta\dlls\cxlib-1-6.dll=No
+D:\Marky\Projects\828Payroll - beta\dlls\cxlibw-1-6.dll=No
+D:\Marky\Projects\828Payroll - beta\dlls\cxlibw7-1-6.dll=No
+
+[Package|Payroll Software Setup|Distribution]
+Type=single
+Size=
+Title=Payroll System Setup
+
+[Package|Payroll Software Setup|IconGroups]
+Group0=Payroll System
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Payroll Software Setup|Payroll System]
+Icon1=Eight2EightPayroll.exe
+Title1=Payroll System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Payroll Software Setup|Package]
+PackageFolder=D:\Projects - VB6-828\828Payroll\Package
+ProjectFolder=D:\Marky\Projects\828Payroll - beta
+ServerSideCab=
+File1=D:\Projects - VB6-828\828Payroll\Package\setup.exe
+File2=D:\Projects - VB6-828\828Payroll\Package\Setup.Lst
+File3=D:\Projects - VB6-828\828Payroll\Package\Eight2EightPayroll.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

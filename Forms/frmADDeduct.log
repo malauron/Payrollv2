@@ -1,0 +1,9 @@
+Line 735: Class CitronSoftwarePayroll.b8SContainer of control frabutton was not a loaded control class.
+Line 932: Class CitronSoftwarePayroll.b8ChildTitleBar of control TitleBar was not a loaded control class.
+Line 741: The property name _ExtentX in frabutton is invalid.
+Line 742: The property name _ExtentY in frabutton is invalid.
+Line 743: The property name BorderColor in frabutton is invalid.
+Line 938: The property name _ExtentX in TitleBar is invalid.
+Line 939: The property name _ExtentY in TitleBar is invalid.
+Line 941: The property name Caption in TitleBar is invalid.
+Line 955: The property name GradTheme in TitleBar is invalid.

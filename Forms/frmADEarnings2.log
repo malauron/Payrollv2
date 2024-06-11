@@ -1,0 +1,5 @@
+Line 98: Class CitronSoftwarePayroll.b8ChildTitleBar of control titlebar was not a loaded control class.
+Line 104: The property name _ExtentX in titlebar is invalid.
+Line 105: The property name _ExtentY in titlebar is invalid.
+Line 107: The property name Caption in titlebar is invalid.
+Line 121: The property name GradTheme in titlebar is invalid.

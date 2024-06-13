@@ -915,7 +915,7 @@ Private Sub tdbBranch_ItemChange()
   
 End Sub
 
-Private Sub tdbBranch_Keypress(KeyAscii As Integer)
+Private Sub tdbBranch_KeyPress(KeyAscii As Integer)
   
   If KeyAscii = 13 Then
     SendKeys "{TAB}"
@@ -1097,6 +1097,7 @@ Private Sub cmdGenerate_Click()
     Dim ttlER                 As Double
     Dim ttlEE                 As Double
     
+    Dim philBasic             As Double
     Dim mPhilAmnt             As Double
     Dim mPhilEr               As Double
     
@@ -1329,6 +1330,7 @@ Private Sub cmdGenerate_Click()
             ttlEE = 0
             ttlER = 0
             
+            philBasic = 0
             mPhilAmnt = 0
             mPhilEr = 0
             
@@ -1719,7 +1721,12 @@ Private Sub cmdGenerate_Click()
                     mPhilAmnt = rsEmployee!PhilHAmt
                     mPhilEr = rsEmployee!philher
                 Else
-                    CompPhi rsEmployee!monthly_rate, mPhilAmnt, mPhilEr
+                
+                    philBasic = (mRegAmnt - mAbsAmnt - mUtAmnt) + mLegAmnt + mLvWPAmnt + mRstAmnt
+                    CompPhi philBasic, mPhilAmnt, mPhilEr
+                    
+                    '## PhilHealth Contribution Computaion as of 2024-05-25
+                    'CompPhi rsEmployee!monthly_rate, mPhilAmnt, mPhilEr
                 End If
             End If
             
@@ -1950,11 +1957,33 @@ Private Sub CompSss20210110(ByVal par1 As Double, ByRef ttlEE As Double, ByRef t
             End If
             
             .MoveNext
+            
         Loop
       End With
     End If
     
 End Sub
+
+'## PhilHealth Contribution Computaion as of 2024-05-25
+'Private Sub CompPhi(ByVal par1 As Double, ByRef mAmount As Double, ByRef mEr As Double)
+'
+'  Dim rsTmp   As ADODB.Recordset
+'  Set rsTmp = New ADODB.Recordset
+'
+'  NetOpen rsTmp, "select * from ph"
+'
+'  If rsTmp.RecordCount > 0 Then
+'    If par1 <= rsTmp!income_floor Then
+'      mAmount = Format(rsTmp!income_floor * rsTmp!rate_prct / 2, "#,##0.00")
+'    ElseIf par1 >= rsTmp!income_ceiling Then
+'      mAmount = Format(rsTmp!income_ceiling * rsTmp!rate_prct / 2, "#,##0.00")
+'    Else
+'      mAmount = Format(par1 * rsTmp!rate_prct / 2, "#,##0.00")
+'    End If
+'    mEr = mAmount
+'  End If
+'
+'End Sub
 
 Private Sub CompPhi(ByVal par1 As Double, ByRef mAmount As Double, ByRef mEr As Double)
   
@@ -1965,16 +1994,17 @@ Private Sub CompPhi(ByVal par1 As Double, ByRef mAmount As Double, ByRef mEr As 
   
   If rsTmp.RecordCount > 0 Then
     If par1 <= rsTmp!income_floor Then
-      mAmount = Format(rsTmp!income_floor * rsTmp!rate_prct / 2, "#,##0.00")
+      mAmount = Format(rsTmp!income_floor * rsTmp!rate_prct, "#,##0.00")
     ElseIf par1 >= rsTmp!income_ceiling Then
-      mAmount = Format(rsTmp!income_ceiling * rsTmp!rate_prct / 2, "#,##0.00")
+      mAmount = Format(rsTmp!income_ceiling * rsTmp!rate_prct, "#,##0.00")
     Else
-      mAmount = Format(par1 * rsTmp!rate_prct / 2, "#,##0.00")
+      mAmount = Format(par1 * rsTmp!rate_prct, "#,##0.00")
     End If
     mEr = mAmount
   End If
   
 End Sub
+
 
 Private Sub CompPhi_2019(ByVal par1 As Double, ByRef mAmount As Double, ByRef mEr As Double)
     If par1 < 10000 Then par1 = 10000

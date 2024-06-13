@@ -10,6 +10,7 @@ Begin VB.Form frmRptHDMFContributions
    ClientWidth     =   10215
    ControlBox      =   0   'False
    LinkTopic       =   "Form1"
+   LockControls    =   -1  'True
    MDIChild        =   -1  'True
    ScaleHeight     =   8085
    ScaleWidth      =   10215
